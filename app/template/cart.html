@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../style/app.css">
+
 	<title>Shopping Cart</title>
+	<link rel="stylesheet" type="text/css" href="../style/app.css">
 </head>
 <body>
 <ul class="tab-ul">
-	<li>Men</li>
-	<li>Women</li>
-	<li>Boy</li>
-	<li>Girl</li>
+	<li onclick="handleTabClick('men')">Men</li>
+	<li onclick="handleTabClick('women')">Women</li>
+	<li onclick="handleTabClick('boy')">Boy</li>
+	<li onclick="handleTabClick('girl')">Girl</li>
 
 </ul>
+<div id="m">
+<h3>Men</h3>
+<p>content for men</p>
+</div>
+<div id="w" class="hide">
+	<h3>Women</h3>
+	<p>content for women</p>
+</div>
+<div id="b" class="hide">
+	<h3>Boy</h3>
+	<p>content for Boy </p>
+</div>
+<div id="g" class="hide">
+	<h3>Girl</h3>
+	<p>content for girl</p>
+
+</div>
+<script type="text/javascript" src="../script/cart.js">
+	
+</script>
 </body>
 </html>
