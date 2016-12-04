@@ -1,0 +1,3 @@
+.tab-ul{ 	list-style-type: none; } 
+ .tab-ul .tab-li { 		display: inline-block; 	    
+ width: 100px; 	    background-color: gray; }
